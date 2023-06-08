@@ -1,0 +1,58 @@
+@import url(style.css);
+
+.search-input{
+    width: 350px;
+    height: 40px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 17px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.search-input em{
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+.search-input input{
+    position: absolute;
+    left: 60px;
+    height: 40px;
+    width: 300px;
+}
+
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.cards .card{
+    width: 170px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.cards:last-child{
+    justify-content: flex-start;
+}
+.cards .card h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    transform: rotate(30deg);
+    object-fit: cover;
+}

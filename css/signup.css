@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot?73521331');
+    src: url('../font/iconfont.eot?73521331#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2?73521331') format('woff2'),
+        url('../font/iconfont.woff?73521331') format('woff'),
+        url('../font/iconfont.ttf?73521331') format('truetype'),
+        url('../font/iconfont.svg?73521331#iconfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "iconfont";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+
+    line-height: 1em;
+
+    margin-left: .2em;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+    content: '\e800';
+}
+
+.icon-noun-search-5771724:before {
+    content: '\e802';
+}
+
+
+.icon-heart-empty:before {
+    content: '\e803';
+}
+
+.icon-globe:before {
+    content: '\e804';
+}
+
+.icon-right-open:before {
+    content: '\e805';
+}
+
+.icon-left-open:before {
+    content: '\e806';
+}
+
+
+.icon-noun-novels-751617:before {
+    content: '\e807';
+}
+
+
+.icon-apple:before {
+    content: '\f179';
+}
+
+.icon-plus-squared-alt:before {
+    content: '\f196';
+}
+
+
+.icon-google:before {
+    content: '\f1a0';
+}
+
+
+.icon-facebook-rect:before {
+    content: '\f301';
+}
+
+
+.icon-noun-play-5771696:before {
+    content: '\e801';
+}
+
+.container {
+    width: 600px;
+    position: relative;
+    left: calc(50% - 300px);
+}
+
+.container img {
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 50px;
+}
+
+.container .kaydol {
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+}
+
+.container .kaydol h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.facebook,
+.google {
+    width: 300px;
+    height: 45px;
+    position: relative;
+    left: calc(50% - 150px);
+    border-radius: 40px;
+    margin: 20px;
+    transition: 500ms all;
+}
+
+.facebook {
+    background-color: #405A93;
+
+}
+
+.facebook em {
+    color: #fff;
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 10px;
+
+}
+
+.google {
+    border: 2px solid rgb(96, 95, 95);
+
+}
+
+.google em {
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 10px;
+}
+
+.google:hover,
+.facebook:hover {
+    transform: scale(1.1);
+}
+.email-kaydol{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 80px;
+    left: calc(50% - 200px);
+}
+.email-kaydol h3{
+    text-align: center;
+}
+.email-kaydol input{
+    border-color: #7f7f7f;
+    border-radius: 5px;
+}
+#email, #password, #isim{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.date1, .date2, .date3{
+    display: inline-block;
+    margin-right: 80px;
+}
+.GG, .GG input , .YYYY , .YYYY input{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+}
+.ay , .ay select{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+input[type=radio]{
+    display: none;
+}
+
+.cinsiyet::before{
+    content: "";
+    margin-left: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #169B45;
+}
+input[type=radio]:checked +.cinsiyet:before{
+    content: "";
+    display: inline-block;
+
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 4px solid #169B45;
+
+}
+.kosul{
+    font-size: 12px;
+    color: black;
+}
+.kosul a{
+    color: #169B45;
+    font-size: 12px;
+}
+#signup{
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #27d564;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: calc(50% - 75px);
+    border: none;
+    transition: 500ms all;
+}
+#signup:hover{
+    background-color: #46e17d;
+}
+h4{
+    position: relative;
+    bottom: -100px;
+    text-align: center;
+}
+h4 a{
+    color: #1daf50;
+}
