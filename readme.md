@@ -1,0 +1,10 @@
+#Spotify 
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20193937.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20193958.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194017.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194044.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194107.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194122.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194136.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194155.png)
+![](image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-08%20194206.png)
