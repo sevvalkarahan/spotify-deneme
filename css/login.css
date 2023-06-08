@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #1e1e1e;
+    background-attachment: fixed;
+    
+
+}
 
 @font-face {
     font-family: 'iconfont';
@@ -87,3 +103,176 @@
 .icon-noun-play-5771696:before {
     content: '\e801';
 }
+
+.header {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px;
+    background-color: #000;
+}
+
+.header img {
+    width: 130px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.login{
+    width: 700px;
+    height: 1000px;
+    background-color: #000;
+    border-radius: 8px;
+    margin-top: 50px;
+
+}
+.login h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+#login-google , #login-facebook , #login-apple{
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid rgb(122, 121, 121);
+    position: relative;
+    left: calc(50% - 150px);
+    margin-bottom: 10px;
+    border-radius: 50px;
+    
+}
+#login-google{
+    margin-top: 55px;
+}
+#login-google em , #login-facebook em, #login-apple em{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+#login-google span , #login-facebook span, #login-apple span{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+#login-facebook em{
+    color: #4f6fb4;
+}
+#login-google:hover , #login-facebook:hover , #login-apple:hover{
+    border-color: #fff;
+}
+.border{
+    margin-top: 4 0px;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: calc(50% - 250px);
+    border-bottom: 0.5px solid gray;
+}
+.form{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+}
+.form label{
+    margin-top: 10px;
+    color: #fff;
+}
+.form input{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    transition: 300ms all;
+    border-radius: 5px;
+    color: #ddd;
+    padding-left: 15px;
+}
+.form input::placeholder{
+    font-size: 15px;
+}
+.form input:hover{
+    border: 1px solid white;
+}
+#cb{
+    display: none;
+}
+.checkbox{
+    display:inline-block;
+    width: 35px;
+    height: 20px;
+    background-color: #7f7f7f;
+    margin-right:5px ;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    transition: 600ms all;
+}
+.checkbox .check{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 2.5px;
+    left: 1px;
+}
+  #cb:checked + .checkbox .check{
+    position: absolute;
+    left:20px;
+  }
+  #cb:checked + .checkbox{
+    background-color: #1ED760;
+  }
+  input[type=button]{
+    background-color: #1ED760;
+    width: 75%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+  }
+  input[value]{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  input[type=button]:hover{
+    transform: scale(1.1);
+    background-color: #2eed71;
+  }
+  #pass{
+    font-weight: 600;
+    color: #fff;
+    margin-top: 25px;
+    position: relative;
+    left: 85px;
+    text-decoration: underline;
+  }
+  #pass:hover{
+    color: #1ED760;
+  }
+  .signup{
+    position: relative;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+  }
+  .signup a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .signup a:hover{
+    color: #1ED760;
+  }
+
